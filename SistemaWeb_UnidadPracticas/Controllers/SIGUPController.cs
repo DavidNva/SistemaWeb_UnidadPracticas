@@ -27,8 +27,6 @@ namespace SistemaWeb_UnidadPracticas.Controllers
 
 
 
-
-
         /*--------------CATEGORIA---------------------*/
         #region CATEGORIA
         [HttpGet] /*Una URL que devuelve datos, un httpost se le pasan los valores y despues devuelve los datos  */

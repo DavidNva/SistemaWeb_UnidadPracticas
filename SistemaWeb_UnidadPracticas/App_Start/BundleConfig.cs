@@ -31,7 +31,10 @@ namespace SistemaWeb_UnidadPracticas
 
             bundles.Add(new Bundle("~/bundles/complementos").Include(
                        "~/Scripts/fontawesome/all.min.js",
-                       "~/Scripts/scripts.js"));
+                       "~/Scripts/scripts.js",
+                       "~/Scripts/DataTables/jquery.dataTables.min.js",/*Para las tablas incluida nueva*/
+                       "~/Scripts/DataTables/dataTables.responsive.min.js"
+                       ));
 
 
             //bundles.Add(new Bundle("~/bundles/complementos").Include(
@@ -53,7 +56,9 @@ namespace SistemaWeb_UnidadPracticas
 
             /*Aqui solo vamos a utilizar el site.css ubicada en la ruta especificada (dentro de la carpeta content)*/
             bundles.Add(new StyleBundle("~/Content/css").Include(/*"~/Content/bootstrap.css",*/
-                "~/Content/site.css"
+                "~/Content/site.css",
+                "~/Content/DataTables/css/jquery.dataTables.min.css",
+                "~/Content/DataTables/css/responsive.dataTables.min.css"
                 //,
                 //"~/Content/DataTables/css/jquery.dataTables.min.css",
                 //"~/Content/DataTables/css/responsive.dataTables.min.css",
