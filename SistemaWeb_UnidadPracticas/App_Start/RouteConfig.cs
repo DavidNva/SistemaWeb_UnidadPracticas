@@ -16,7 +16,7 @@ namespace SistemaWeb_UnidadPracticas
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "SIGUP", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
