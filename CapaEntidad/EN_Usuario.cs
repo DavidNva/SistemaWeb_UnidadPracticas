@@ -8,5 +8,9 @@ namespace CapaEntidad
 {
     class EN_Usuario
     {
+        public int idUsuario { get; set; }
+        public string Nombre { get; set; }
+        public string Apellidos { get; set; }
+        public EN_TipoUsuario tipoUsuario { get; set; }
     }
 }

@@ -8,5 +8,8 @@ namespace CapaEntidad
 {
     class EN_Area
     {
+        public int idArea { get; set; }
+        public string nombreArea { get; set; }
+        public EN_Edificio edificio { get; set; }
     }
 }

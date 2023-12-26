@@ -8,5 +8,7 @@ namespace CapaEntidad
 {
     class EN_Carrera
     {
+        public int idCarrera { get; set; }
+        public string nombreCarrera { get; set; }
     }
 }
